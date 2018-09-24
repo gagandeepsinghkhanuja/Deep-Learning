@@ -1,0 +1,24 @@
+# Gagandeep Singh Khanuja
+# Homework2
+
+# Platform
+Python3, Pytorch, Torchvision
+Machine :- Intel Core i7 with 4 cores and 1 GPU, 16GB RAM
+Ubuntu 18.0
+
+
+# Neural Network API
+Implement the code from the neural_network.py file.
+The Class Neural Network has been defined in the file. The class has been assigned a list which is then used in making a dictionary of the matrices. 
+The concept of pointers in C has been used when defining the method getlayer as it returns 0. I have made use of the concept that is known as call by reference in the second API.
+Another method known as forward has been defined that is used as a feedforward pass. Bias term has been added to each layer and the size of it depends extensively on the number of columns in the input which means that if a single batch is present then single node of bias is added to the existing nodes of the layer.  
+
+
+# Logic Gates API
+Run the following code logic_gates.py on the terminal by typing python3 logic_gates.py
+The class Neural Network used in the first code creates four different gates that are AND, OR, NOT and XOR. These gates take boolean values as input and return boolean values as output. 
+The weight is set to be 0 as and when the constructor is called. The call method is used for calling the feed forward method of the Neural Network and then the output is converted to boolean which has been later printed. 
+
+
+# Running tests
+Run the following python file on the terminal and verify the results. 
